@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="3BBF1124-D7D8-84B3-A51D-7E6215D10C21" name="MER MobileOS" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

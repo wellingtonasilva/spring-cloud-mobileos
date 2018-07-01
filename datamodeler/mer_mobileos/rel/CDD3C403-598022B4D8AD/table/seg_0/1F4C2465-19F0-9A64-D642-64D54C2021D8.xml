@@ -1,0 +1,332 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F4C2465-19F0-9A64-D642-64D54C2021D8" name="mos_ordem_servico_subshm">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:45:56 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ossh_id" id="73F3E119-3FF1-6CE2-AE40-FAA4B03E0D81">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:25:25 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orse_id" id="BB7241C7-A96C-667B-1716-EB531D545B67">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:46:17 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8BB9E7F-2031-E5D6-3602-173B8EEE063E" referredColumn="A88A54F6-9728-A3A9-7C26-EB04B0C2BD79"/>
+</associations>
+</Column>
+<Column name="ossh_nnhidrometroatual" id="783076B8-4B8D-04A5-4C55-C9E4EFFA307E">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:25:45 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_ictipomedicaoatual" id="79F8A09A-E1CC-56D5-9CAA-03047E64A054">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:26:02 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_dtretirada" id="815514D3-8AFB-E8E5-FF82-A9908A18021D">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:26:19 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_nnleituraretirada" id="FBD4904A-97BB-BB43-9E3A-67A22E387D8F">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:26:33 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hdst_id" id="6284DFFB-B398-27E2-E254-346136D968D2">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:26:55 UTC</createdTime>
+<commentInRDBMS>Situação do Hidrometro</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4D3789B-DBC0-76BD-0E49-1CB5342E2B0B" referredColumn="842CE430-C696-B660-9FE1-44DB550C3755"/>
+</associations>
+</Column>
+<Column name="hdla_id" id="47960405-15BA-A091-2BFC-390ED0E92DAD">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:27:19 UTC</createdTime>
+<commentInRDBMS>Local de Armazenagem do Hidrometro</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1313B953-CDE3-8B62-6D92-32A1C2B8DCB6" referredColumn="20EBC00D-BC1D-1C6B-2330-82B3E9E789CC"/>
+</associations>
+</Column>
+<Column name="ossh_nnhidrometronovo" id="6B19190A-E31E-7C7F-DF40-1744B6D204BB">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:28:51 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_dtinstalacao" id="A6E592EB-330D-2FBA-53B6-272039C1A25B">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:29:08 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_ictipomedicao" id="E5329A01-71E7-0A04-FAC9-5E6BAB5D1055">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:29:28 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hloi_id" id="137812DF-DE8B-7709-618E-F3EF61B6F66D">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:30:30 UTC</createdTime>
+<commentInRDBMS>Local de Instalação do Hidrometro</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C9EAA42-727C-3A0E-EDB0-5FC7407082E9" referredColumn="EF621DFD-3CAF-06A0-524F-0A12B1F5CA36"/>
+</associations>
+</Column>
+<Column name="hpro_id" id="409E4A92-6174-56ED-7AB3-52925FF5C2FD">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:31:20 UTC</createdTime>
+<commentInRDBMS>Proteção do Hidrômetro</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="409DA078-34DA-3B64-52D3-9889F466C75E" referredColumn="955A8A81-5CAB-9139-B353-8C7CF4191CEF"/>
+</associations>
+</Column>
+<Column name="ossh_ictrocaprotecao" id="F0FE01F2-A12E-507A-91AE-A4915AEFA3D1">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:32:14 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_ictrocaregistro" id="A9FEC2A7-E439-4A56-E935-099046276FE9">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:32:31 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_nnleiturainstalacao" id="40DB2267-A69C-0517-B26D-9F4F54B0E72E">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:32:45 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_nnselo" id="49B5C79E-AB10-6EAD-8F87-684EFDC4FB4A">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:32:56 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ossh_iccavalete" id="FFD9F9DC-1D32-037F-3D27-2CE6CEFB10C8">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:33:10 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hits_id" id="53FD71F1-B200-6865-FDEE-7B7FAF62D608">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:33:34 UTC</createdTime>
+<commentInRDBMS>Tipo Substituição</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5118D8CB-8E18-8980-1FFF-B7323329AFCC" referredColumn="85FE8658-8DF4-2A8E-4B2C-4092F91ACFCC"/>
+</associations>
+</Column>
+<Column name="ossh_tminstalacao" id="413ED2A2-4715-B251-4946-F89299E77415">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:36:01 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B10D83-9067-DFAF-5C03-EF7A2D6057DE" name="mos_ordem_servico_subshm_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:25:25 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F3E119-3FF1-6CE2-AE40-FAA4B03E0D81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8153EB8F-FC67-17D7-5F7B-8DA65C04990F" name="xkf1_ordem_servico_subshm">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:46:17 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB7241C7-A96C-667B-1716-EB531D545B67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D953AED-134C-E745-8CA7-E0EC68C06D75" name="xfk2_ordem_servico_subshm">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:26:55 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6284DFFB-B398-27E2-E254-346136D968D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C5A8A6F-6F41-3F18-1BEC-6803EAA1452F" name="xfk3_ordem_servico_subshm">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:27:19 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47960405-15BA-A091-2BFC-390ED0E92DAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84A9B017-4F40-320B-9A6F-5EDBD79594F1" name="xfk3_ordem_servico_subshmv2">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:30:30 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="137812DF-DE8B-7709-618E-F3EF61B6F66D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87653FD7-94F4-FFED-73F5-5CE45CE162B9" name="xfk4_ordem_servico_subshm">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:31:20 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409E4A92-6174-56ED-7AB3-52925FF5C2FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="169A979E-9A90-12B2-3458-E30B133DBACD" name="xfk4_ordem_servico_subshmv2">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:33:34 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53FD71F1-B200-6865-FDEE-7B7FAF62D608"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

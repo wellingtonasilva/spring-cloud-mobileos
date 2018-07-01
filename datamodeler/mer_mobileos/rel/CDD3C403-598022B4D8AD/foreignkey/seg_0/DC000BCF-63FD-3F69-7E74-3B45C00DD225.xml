@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC000BCF-63FD-3F69-7E74-3B45C00DD225" containerWithKeyObject="8783E5E7-3455-371C-D42F-B5C1B0A7FA66" localFKIndex="6B105CF0-809B-C6D0-F313-827229CA479E" name="xkf1_hidrometro_tipo_instal">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:00:29 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<referredTableLongName>mos_empresa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92935ED2-BD6B-C4A4-9A5E-5FF4307674BE</referredTableID>
+<keyObject>0B48AC9F-2835-40A4-FBEE-AC69B526A825</keyObject>
+<referredKeyID>0B48AC9F-2835-40A4-FBEE-AC69B526A825</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>empr_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

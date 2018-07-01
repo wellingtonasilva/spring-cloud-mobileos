@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99E67A61-5039-0D91-AE6B-5995EBD42BBF" name="mos_equipe">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:32:17 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="eqpe_id" id="6EF27B87-8899-1687-72E2-37EC5A5B76D4">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:33:34 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="7914F6D9-ABED-1992-96D1-BCB32198C306">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:32:28 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A241293-DE2F-2D5D-7362-03081D81E5C9" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="eqpe_nmequipe" id="8E63AB1F-B7A2-924D-A9F9-FD7A34107DA0">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:33:48 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eqpe_nnplacaveiculo" id="4C05AAB2-71D4-02B1-575B-6E91998BB2FB">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:34:21 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eqpe_cargahorariotrabalho" id="957A7C1E-AE9E-E8DA-83BA-D80C9A480FCF">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:34:40 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD0E7456-DFCD-23EE-F6F2-10019F310EB1" name="mos_equipe_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:33:34 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF27B87-8899-1687-72E2-37EC5A5B76D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F254C75-FC7F-659F-37C2-FFB3E96B6C79" name="xfk1_equipe">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:32:28 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7914F6D9-ABED-1992-96D1-BCB32198C306"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

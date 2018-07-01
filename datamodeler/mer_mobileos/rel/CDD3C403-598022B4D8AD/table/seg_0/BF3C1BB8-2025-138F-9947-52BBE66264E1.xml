@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF3C1BB8-2025-138F-9947-52BBE66264E1" name="mos_ordem_servico">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:21:36 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orse_id" id="A88A54F6-9728-A3A9-7C26-EB04B0C2BD79">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:23:47 UTC</createdTime>
+<commentInRDBMS>Id. da tabela</commentInRDBMS>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="B528FDF0-6B7E-368F-E1E0-95F357C03251">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:27:33 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0A18529-8887-1BAC-1660-48DB0E469A1B" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6509BA96-0471-B5C0-BA97-F8A657948688" name="mos_ordem_servico_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:23:47 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A88A54F6-9728-A3A9-7C26-EB04B0C2BD79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07178C41-C39D-AC74-BB48-65AE1B089FA3" name="xkf1_ordem_servico">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:27:33 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B528FDF0-6B7E-368F-E1E0-95F357C03251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

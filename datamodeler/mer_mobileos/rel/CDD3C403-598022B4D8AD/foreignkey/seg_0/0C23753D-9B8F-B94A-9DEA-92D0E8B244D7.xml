@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C23753D-9B8F-B94A-9DEA-92D0E8B244D7" containerWithKeyObject="40D7EE4A-3337-5912-9BA8-68F42D2FDB8F" localFKIndex="6FE97FF9-CAD1-65EE-F3A1-963D54EB4339" name="xfk1_ordem_servico_vala">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:32:36 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<referredTableLongName>mos_local_ocorrencia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E09C16AD-2719-8223-46B0-B1AD1E67E2DA</referredTableID>
+<keyObject>DD9523C8-C717-B7DD-ECB6-C0EC570B5209</keyObject>
+<referredKeyID>DD9523C8-C717-B7DD-ECB6-C0EC570B5209</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>loco_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

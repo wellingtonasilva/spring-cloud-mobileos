@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E09C16AD-2719-8223-46B0-B1AD1E67E2DA" name="mos_local_ocorrencia">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:30:16 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="loco_id" id="DF09C562-929B-0DA2-B155-94AC6E72EDB0">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:31:35 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="E420F8E2-1B42-9F40-606F-C753CC986673">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:30:46 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DD34788-B062-A434-F8F1-5D7BD4AD76E1" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="loco_dslocalocorrencia" id="16EF2982-ECCE-0726-4DA7-A4E7AFD98D98">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:32:24 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD9523C8-C717-B7DD-ECB6-C0EC570B5209" name="mos_local_ocorrencia_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:32:24 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF09C562-929B-0DA2-B155-94AC6E72EDB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C34EA80-A810-5ABA-6398-70747233282F" name="xfk1_local_ocorrencia">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:30:46 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E420F8E2-1B42-9F40-606F-C753CC986673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

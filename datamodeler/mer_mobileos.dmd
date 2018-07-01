@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mer_mobileos" id="C461E784-0E42-24C6-E160-64E536BD241F" version="3.5">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 15:14:24 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C461E784-0E42-24C6-E160-64E536BD241F</designId>
+</OSDM_Design>

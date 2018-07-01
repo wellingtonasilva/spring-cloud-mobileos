@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B51145D1-7C0E-0595-B7D3-4367BED42CFC" name="mos_material">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:16:28 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mate_id" id="CC42A5E4-0E83-4881-AE0F-9306B3CFE968">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:17:46 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="6C43B5CD-6272-8746-A084-BDFFA16ABADE">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:17:09 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E230A7E-BF17-BDEC-8066-8AA230F8F7F8" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="mate_dsmaterial" id="080BC680-B808-9499-2E20-2D7F88B42F0A">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:17:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unid_id" id="1510597F-F255-4611-006E-B1120B4D3352">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:22:06 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD074367-CFB3-3472-0789-50F9B9025023" referredColumn="AEB38A55-83F5-3044-A2B3-182DBB208AB5"/>
+</associations>
+</Column>
+<Column name="mate_dsunidade" id="13BA9C12-58AC-966D-1486-1FF351089921">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:19:12 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5025843F-3395-D914-19EA-B072E81D7D60" name="mos_material_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:17:46 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC42A5E4-0E83-4881-AE0F-9306B3CFE968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0E0A8FF-65F1-104C-8152-508D4E05A2AD" name="xfk1_material">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:17:09 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C43B5CD-6272-8746-A084-BDFFA16ABADE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D764F169-897B-32FB-ED65-87C0540FAE52" name="xfk2_material">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 02:22:06 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1510597F-F255-4611-006E-B1120B4D3352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

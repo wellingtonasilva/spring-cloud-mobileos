@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="680B0E66-A4C4-4D37-5B7F-A571913D7137" name="mos_equipe_componentes">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:33:00 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="eqpc_id" id="87643327-8676-21AA-9761-D0792F0C6931">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:41:41 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eqpe_id" id="59072EDF-3DB2-1032-240C-8974CEFFCC16">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:34:58 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0ECCF63E-C3C5-21C3-63FB-62B28ABBE1E0" referredColumn="6EF27B87-8899-1687-72E2-37EC5A5B76D4"/>
+</associations>
+</Column>
+<Column name="func_id" id="C661937C-E5CB-EAAF-4858-2899BE4924D8">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:37:38 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE5D4B54-77A9-A737-91ED-7988C83F44FE" referredColumn="6C9CFC62-0C4A-932D-8B4E-6273A7F25684"/>
+</associations>
+</Column>
+<Column name="eqpc_icresponsavel" id="DAFA126E-09E1-FB9E-EE12-F2FB4096115A">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:42:01 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02315EB4-0491-92AD-AE1A-A855A254D054" name="mos_equipe_componentes_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:41:41 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87643327-8676-21AA-9761-D0792F0C6931"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8249D95D-0895-F85F-65EC-88CB92325C62" name="xkf1_equipe_componentes">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:34:58 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59072EDF-3DB2-1032-240C-8974CEFFCC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18C7BE6B-4516-AB4E-AB7B-B468062FE6EE" name="xfk1_equipe_componentes">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-06-30 17:37:38 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C661937C-E5CB-EAAF-4858-2899BE4924D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

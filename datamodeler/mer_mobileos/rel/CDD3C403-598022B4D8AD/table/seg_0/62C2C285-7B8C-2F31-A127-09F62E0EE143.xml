@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62C2C285-7B8C-2F31-A127-09F62E0EE143" name="mos_hidrometro_local_armaz">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:22:26 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hdla_id" id="20EBC00D-BC1D-1C6B-2330-82B3E9E789CC">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:23:17 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="62CF4CC4-D532-C9B3-DBC9-F55E50897178">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:23:52 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFB7D6EA-ED33-24B4-A25A-7E49DEE50401" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="hdla_dslocalarmazenagem" id="DF426B3B-C263-8B6E-C120-52927A6619C2">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:23:31 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="211FC433-EF4D-0D50-F81F-5DA3253433A6" name="mos_hidrometro_local_armaz_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:23:17 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20EBC00D-BC1D-1C6B-2330-82B3E9E789CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="036D32A2-0E29-57D0-AAB9-C423A372C1E7" name="xfk1_hidrometro_local_armaz">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 03:23:52 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62CF4CC4-D532-C9B3-DBC9-F55E50897178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
