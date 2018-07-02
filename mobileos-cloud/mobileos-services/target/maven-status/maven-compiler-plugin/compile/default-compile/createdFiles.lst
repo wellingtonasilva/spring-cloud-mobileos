@@ -1,0 +1,4 @@
+br/com/wsilva/mobileos/repository/ServicoTipoRepository.class
+br/com/wsilva/mobileos/controller/ServicoTipoController.class
+br/com/wsilva/mobileos/MobileosServicesApplication.class
+br/com/wsilva/mobileos/entity/ServicoTipoEntity.class

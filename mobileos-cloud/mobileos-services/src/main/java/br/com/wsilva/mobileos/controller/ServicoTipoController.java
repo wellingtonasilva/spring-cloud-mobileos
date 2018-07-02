@@ -26,6 +26,6 @@ public class ServicoTipoController {
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public ServicoTipoEntity findById(@PathVariable("id") Long id) {
-        return this.servicoTipoRepository.findById(id).get();
+        return this.servicoTipoRepository.findOne(id);
     }
 }
