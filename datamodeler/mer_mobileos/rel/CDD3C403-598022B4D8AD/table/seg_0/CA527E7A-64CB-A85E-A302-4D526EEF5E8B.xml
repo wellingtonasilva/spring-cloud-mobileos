@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA527E7A-64CB-A85E-A302-4D526EEF5E8B" name="mos_veiculo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:06:43 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="veic_id" id="C058C1CE-3E6D-F984-0AA0-582C57A46564">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:14:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vemr_id" id="0FEC6DD5-5AF4-2F4B-B81F-4B9410090E7B">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:19 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="173F537D-072D-1B8E-95CE-B53EC598FA10" referredColumn="5FCD5D32-EC40-6591-442F-D6FE7CF4E4DF"/>
+</associations>
+</Column>
+<Column name="vemo_id" id="49F8802A-2AAE-ADE9-FED4-062549977EAF">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:30 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CB6B7D4-AEBD-A090-218E-8DC928920328" referredColumn="6B6BED08-70F1-3B91-17F6-F3E67677869E"/>
+</associations>
+</Column>
+<Column name="vetp_id" id="F218EF33-CC64-607F-E64B-AF0DAE576E6E">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:42 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59E18A1A-5384-030F-71F7-E474D4B7676D" referredColumn="B23E5876-B218-C6AD-6AE0-4859F99F1809"/>
+</associations>
+</Column>
+<Column name="empr_id" id="6B874170-386F-0DA2-02BF-F37FA633F896">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:14:08 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0D1ED24-3FF0-E542-A224-F81A01E28D4A" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="veic_nnplaca" id="4E1A81FF-19FF-E227-8686-DFD0DD83C3F8">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:15:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="veic_nnkmacumulada" id="FF5F5DBD-2D39-7A6F-CE6D-098666536F37">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:15:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="veic_dtultimarevisao" id="46A7B886-F7EA-D3F7-B6BD-C941DC02A5F4">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:15:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="veic_dtproximarevisao" id="03F7340B-10E2-88FB-78D0-74ACA0000698">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:15:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59D04C1D-D327-2171-524B-F2238EBD8B63" name="mos_veiculo_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:14:57 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C058C1CE-3E6D-F984-0AA0-582C57A46564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B95A230-C360-749D-2271-F68235D1DBBC" name="xfk1_veiculo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:19 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FEC6DD5-5AF4-2F4B-B81F-4B9410090E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97059EEA-0D9B-5BE4-B0A7-BEE140CCC993" name="xfk2_veiculo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:30 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F8802A-2AAE-ADE9-FED4-062549977EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A43E85F0-9C02-C6C7-343C-1EC74DFC0A84" name="xfk3_veiculo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:13:42 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F218EF33-CC64-607F-E64B-AF0DAE576E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C3A65E2-375A-C8D6-FE8E-5323D9F5F2C2" name="xfk4_veiculo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:14:08 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B874170-386F-0DA2-02BF-F37FA633F896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

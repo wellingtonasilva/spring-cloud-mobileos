@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA9F3456-22DF-6307-061B-538DB14C751E" name="mos_checklist_grupo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:19:24 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chgr_id" id="DC41E349-BF91-D3BC-080D-A9AD5503962F">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:24:27 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chgr_dschecklistgrupo" id="A38E02B6-488A-FF23-0899-2F6DEBD3B79A">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:24:27 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE85AA7C-4450-058C-60BE-F4A5E0359E7A" name="mos_checklist_grupo_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:24:27 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC41E349-BF91-D3BC-080D-A9AD5503962F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

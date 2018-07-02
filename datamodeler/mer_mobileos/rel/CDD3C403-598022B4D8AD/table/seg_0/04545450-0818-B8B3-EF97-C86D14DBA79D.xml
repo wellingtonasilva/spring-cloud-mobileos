@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04545450-0818-B8B3-EF97-C86D14DBA79D" name="mos_veiculo_modelo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:09:49 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vemo_id" id="6B6BED08-70F1-3B91-17F6-F3E67677869E">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:10:14 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="6D133DE2-A05C-7A5C-1269-F4088268E217">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:12:21 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B0675D2-7F43-12C2-FB35-A5949465AD32" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="vemo_dsveiculomodelo" id="3AA74DD6-9075-CB6A-2E23-8C33484F9E0B">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:10:27 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C8783FD-7940-96B2-5349-762BE6C05C13" name="mos_veiculo_modelo_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:10:14 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B6BED08-70F1-3B91-17F6-F3E67677869E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE2D72DB-42DD-2F6B-0E30-281BBAA7FC52" name="xfk1_veiculo_modelo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:12:21 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D133DE2-A05C-7A5C-1269-F4088268E217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

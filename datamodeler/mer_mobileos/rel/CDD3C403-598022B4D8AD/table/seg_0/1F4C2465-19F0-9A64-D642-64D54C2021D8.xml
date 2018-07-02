@@ -268,7 +268,7 @@
 <colUsage columnID="73F3E119-3FF1-6CE2-AE40-FAA4B03E0D81"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8153EB8F-FC67-17D7-5F7B-8DA65C04990F" name="xkf1_ordem_servico_subshm">
+<ind_PK_UK id="8153EB8F-FC67-17D7-5F7B-8DA65C04990F" name="xkf6_ordem_servico_subshm">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-06-30 15:46:17 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -278,7 +278,7 @@
 <colUsage columnID="BB7241C7-A96C-667B-1716-EB531D545B67"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5D953AED-134C-E745-8CA7-E0EC68C06D75" name="xfk2_ordem_servico_subshm">
+<ind_PK_UK id="5D953AED-134C-E745-8CA7-E0EC68C06D75" name="xfk1_ordem_servico_subshm">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:26:55 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -288,7 +288,7 @@
 <colUsage columnID="6284DFFB-B398-27E2-E254-346136D968D2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C5A8A6F-6F41-3F18-1BEC-6803EAA1452F" name="xfk3_ordem_servico_subshm">
+<ind_PK_UK id="0C5A8A6F-6F41-3F18-1BEC-6803EAA1452F" name="xfk2_ordem_servico_subshm">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:27:19 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -298,7 +298,7 @@
 <colUsage columnID="47960405-15BA-A091-2BFC-390ED0E92DAD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="84A9B017-4F40-320B-9A6F-5EDBD79594F1" name="xfk3_ordem_servico_subshmv2">
+<ind_PK_UK id="84A9B017-4F40-320B-9A6F-5EDBD79594F1" name="xfk3_ordem_servico_subshm">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:30:30 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -318,7 +318,7 @@
 <colUsage columnID="409E4A92-6174-56ED-7AB3-52925FF5C2FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="169A979E-9A90-12B2-3458-E30B133DBACD" name="xfk4_ordem_servico_subshmv2">
+<ind_PK_UK id="169A979E-9A90-12B2-3458-E30B133DBACD" name="xfk5_ordem_servico_subshm">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:33:34 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>

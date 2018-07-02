@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22353335-61CC-18EF-D76A-44ABBDC36496" containerWithKeyObject="C33E1DE6-A3A7-1422-4050-067D675A957B" localFKIndex="A08559B7-AA2C-AA6F-940D-8EDD8CEA0B7F" name="xfk1_checklist_item">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:25:26 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<referredTableLongName>mos_checklist_grupo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA9F3456-22DF-6307-061B-538DB14C751E</referredTableID>
+<keyObject>FE85AA7C-4450-058C-60BE-F4A5E0359E7A</keyObject>
+<referredKeyID>FE85AA7C-4450-058C-60BE-F4A5E0359E7A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>chgr_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

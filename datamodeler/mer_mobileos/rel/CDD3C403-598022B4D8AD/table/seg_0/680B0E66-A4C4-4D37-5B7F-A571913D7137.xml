@@ -71,7 +71,7 @@
 <colUsage columnID="87643327-8676-21AA-9761-D0792F0C6931"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8249D95D-0895-F85F-65EC-88CB92325C62" name="xkf1_equipe_componentes">
+<ind_PK_UK id="8249D95D-0895-F85F-65EC-88CB92325C62" name="xkf2_equipe_componentes">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-06-30 17:34:58 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>

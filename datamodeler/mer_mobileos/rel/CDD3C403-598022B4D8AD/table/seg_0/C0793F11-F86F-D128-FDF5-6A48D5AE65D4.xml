@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0793F11-F86F-D128-FDF5-6A48D5AE65D4" name="mos_servico_tipo">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:45:05 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="svtp_id" id="FC9A082B-0FDE-1378-00B4-E6CFE3BE93B8">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:46:15 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="svtp_dsservicotipo" id="20D49667-D7AF-B7B3-855C-18D6FE8A23CE">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:46:15 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17BBCFB0-5605-42E7-FD18-AC7C37360106" name="mos_servico_tipo_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 23:46:33 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9A082B-0FDE-1378-00B4-E6CFE3BE93B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

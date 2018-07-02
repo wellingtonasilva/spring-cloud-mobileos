@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5C92859-01F2-AD35-1794-0118831AB61A" name="mos_ligacao_agua_situacao">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:30:14 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lags_id" id="64B474D2-D44D-4BE6-0B23-D3BFD249534B">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:30:56 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empr_id" id="28CD7812-9BE9-1B9C-27D9-D2EFF20C5D45">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:33:35 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B873B539-00C8-F99D-4321-C561DD2B5749" referredColumn="6E599CE5-3624-C3C3-C72C-98B537AF1468"/>
+</associations>
+</Column>
+<Column name="lags_dsligacaosituacaoagua" id="DD8851A4-E6BF-87BD-7026-93E6347C9790">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:31:20 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB32209C-01E0-A992-A5F8-154A1135A49B" name="mos_ligacao_agua_situacao_PK">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:30:56 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B474D2-D44D-4BE6-0B23-D3BFD249534B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90C2455D-FD9A-B9BA-C91E-F34140AA6B30" name="xfk1_ligacao_agua_situacao">
+<createdBy>wellingtonasilva</createdBy>
+<createdTime>2018-07-01 13:33:35 UTC</createdTime>
+<ownerDesignName>mer_mobileos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28CD7812-9BE9-1B9C-27D9-D2EFF20C5D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

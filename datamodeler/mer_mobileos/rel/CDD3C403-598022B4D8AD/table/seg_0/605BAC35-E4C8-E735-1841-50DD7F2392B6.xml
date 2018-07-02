@@ -201,7 +201,7 @@
 <colUsage columnID="A0646972-BFE1-B5D9-48C6-ED1B3C0813A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="778635E0-EC4C-F9DF-6E0D-8C86BDF2D91C" name="xfk1_ordem_servico_religacaov2">
+<ind_PK_UK id="778635E0-EC4C-F9DF-6E0D-8C86BDF2D91C" name="xfk2_ordem_servico_religacao">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:14:31 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -211,7 +211,7 @@
 <colUsage columnID="02B0DE34-0DC7-28B7-4CF7-D32D49A05787"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BC7ACA2E-3A91-7BE7-369B-B152AF3AABC7" name="xkf2_ordem_servico_religacao">
+<ind_PK_UK id="BC7ACA2E-3A91-7BE7-369B-B152AF3AABC7" name="xkf3_ordem_servico_religacao">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:14:48 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
@@ -221,7 +221,7 @@
 <colUsage columnID="A8638DC3-F02F-3823-8D1A-A0983671F895"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DE019757-C750-F48F-A330-73AFA30BB709" name="xkf3_ordem_servico_religacao">
+<ind_PK_UK id="DE019757-C750-F48F-A330-73AFA30BB709" name="xkf4_ordem_servico_religacao">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:15:02 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>

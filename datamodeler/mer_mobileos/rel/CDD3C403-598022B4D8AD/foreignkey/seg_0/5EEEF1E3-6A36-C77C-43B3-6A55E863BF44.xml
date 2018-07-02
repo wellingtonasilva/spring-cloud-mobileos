@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EEEF1E3-6A36-C77C-43B3-6A55E863BF44" containerWithKeyObject="605BAC35-E4C8-E735-1841-50DD7F2392B6" localFKIndex="BC7ACA2E-3A91-7BE7-369B-B152AF3AABC7" name="xkf2_ordem_servico_religacao">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EEEF1E3-6A36-C77C-43B3-6A55E863BF44" containerWithKeyObject="605BAC35-E4C8-E735-1841-50DD7F2392B6" localFKIndex="BC7ACA2E-3A91-7BE7-369B-B152AF3AABC7" name="xkf3_ordem_servico_religacao">
 <createdBy>wellingtonasilva</createdBy>
 <createdTime>2018-07-01 03:14:48 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>

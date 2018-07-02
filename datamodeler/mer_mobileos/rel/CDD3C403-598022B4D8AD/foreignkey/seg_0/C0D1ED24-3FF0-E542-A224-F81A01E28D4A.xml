@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0A18529-8887-1BAC-1660-48DB0E469A1B" containerWithKeyObject="BF3C1BB8-2025-138F-9947-52BBE66264E1" localFKIndex="07178C41-C39D-AC74-BB48-65AE1B089FA3" name="xkf2_ordem_servico">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0D1ED24-3FF0-E542-A224-F81A01E28D4A" containerWithKeyObject="CA527E7A-64CB-A85E-A302-4D526EEF5E8B" localFKIndex="2C3A65E2-375A-C8D6-FE8E-5323D9F5F2C2" name="xfk4_veiculo">
 <createdBy>wellingtonasilva</createdBy>
-<createdTime>2018-06-30 17:27:33 UTC</createdTime>
+<createdTime>2018-07-01 23:14:08 UTC</createdTime>
 <ownerDesignName>mer_mobileos</ownerDesignName>
 <referredTableLongName>mos_empresa</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
