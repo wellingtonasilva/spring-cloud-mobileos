@@ -15,22 +15,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mobileos_cloud$mobileos_business.ic" NAME="mobileos-business Coverage Results" MODIFIED="1530505712668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ServicoTipoEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java">
+      <file leaf-file-name="ServicoTipoBusinessController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="330">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServicoTipoBusinessController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
+      <file leaf-file-name="ServicoTipoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +48,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MobileosBusinessApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java">
+      <file leaf-file-name="ServicoTipoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="405">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +68,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,9 +96,12 @@
         <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/domain/ServicoTipoEntity.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-business/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/ServicoTipoService.java" />
+        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java" />
+        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java" />
       </list>
     </option>
@@ -142,6 +161,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mobileos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +243,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,6 +342,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32721382" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.29295623" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -370,7 +400,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -444,18 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -484,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -511,14 +519,21 @@
     <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
+    <entry file="file://$PROJECT_DIR$/mobileos-business/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="390">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -527,8 +542,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
