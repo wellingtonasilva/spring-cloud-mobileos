@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileos-server-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileos-business/pom.xml" />
       </list>
     </option>
   </component>

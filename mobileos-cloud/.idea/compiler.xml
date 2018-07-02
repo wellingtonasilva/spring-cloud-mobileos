@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mobileos-business" />
         <module name="mobileos-config-server" />
+        <module name="mobileos-server-discovery" />
         <module name="mobileos-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
+      <module name="mobileos-business" target="1.8" />
       <module name="mobileos-config-server" target="1.8" />
+      <module name="mobileos-server-discovery" target="1.8" />
       <module name="mobileos-services" target="1.8" />
     </bytecodeTargetLevel>
   </component>
