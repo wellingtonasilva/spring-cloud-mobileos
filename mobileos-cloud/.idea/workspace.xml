@@ -15,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MobileosConfigServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/java/br/com/wsilva/mobileos/MobileosConfigServerApplication.java">
+      <file leaf-file-name="servicotiposervices.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -58,9 +49,9 @@
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java" />
         <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java" />
-        <option value="$PROJECT_DIR$/config/servicotiposervices.properties" />
         <option value="$PROJECT_DIR$/mobileos-config-server/src/main/java/br/com/wsilva/mobileos/MobileosConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config/servicotiposervices.properties" />
       </list>
     </option>
   </component>
@@ -83,6 +74,11 @@
             <path>
               <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -208,10 +204,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31928346" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31928346" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982087" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.2796875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.2796875" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,10 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties">
+    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -374,10 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
