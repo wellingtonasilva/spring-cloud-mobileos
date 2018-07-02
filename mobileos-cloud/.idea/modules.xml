@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mobileos-cloud.iml" filepath="$PROJECT_DIR$/mobileos-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileos-services/mobileos-services.iml" filepath="$PROJECT_DIR$/mobileos-services/mobileos-services.iml" />
+    </modules>
+  </component>
+</project>
