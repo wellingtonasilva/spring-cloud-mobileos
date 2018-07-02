@@ -15,16 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servicotiposervices.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="servicotiposervices.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -59,8 +59,8 @@
         <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-config-server/src/main/java/br/com/wsilva/mobileos/MobileosConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config/servicotiposervices.properties" />
+        <option value="$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -218,10 +218,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32721382" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32721382" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.28655282" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.28655282" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,17 +380,17 @@
     <entry file="file://$PROJECT_DIR$/config/servicotiposervices2.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
