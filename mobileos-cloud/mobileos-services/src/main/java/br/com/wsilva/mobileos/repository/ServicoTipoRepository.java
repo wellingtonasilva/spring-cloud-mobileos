@@ -6,5 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ServicoTipoRepository extends CrudRepository<ServicoTipoEntity, Long> {
-    ServicoTipoEntity findByDescricao(String descricao);
 }
