@@ -93,3 +93,16 @@ insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (755,'INFORMAR 
 insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (7,'PARCELAMENTO DE DEBITO');
 insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (8,'REFATURAMENTO DA CONTA');
 insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (9,'CORTE A PEDIDO');
+
+
+insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
+values (1, 1, 'Corte Padrão');
+
+insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
+values (2, 1, 'Corte a Pedido');
+
+insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
+values (3, 1, 'Corte no Ramal');
+
+insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
+values (4, 1, 'Corte no Cavalete');
