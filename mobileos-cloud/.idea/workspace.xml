@@ -19,45 +19,12 @@
     <SUITE FILE_PATH="coverage/mobileos_cloud$mobileos_business.ic" NAME="mobileos-business Coverage Results" MODIFIED="1530505712668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ServicoTipoBusinessController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobileos-services/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicoTipoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicoTipoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="471">
+              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -90,10 +57,8 @@
         <option value="$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java" />
-        <option value="$PROJECT_DIR$/mobileos-server-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-server-discovery/src/main/java/br/com/wsilva/mobileos/MobileosServerDiscoveryApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-server-discovery/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/domain/ServicoTipoEntity.java" />
@@ -103,22 +68,22 @@
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java" />
+        <option value="$PROJECT_DIR$/mobileos-server-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1942" />
-    <option name="y" value="148" />
-    <option name="width" value="1270" />
-    <option name="height" value="852" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="97" />
+    <option name="y" value="65" />
+    <option name="width" value="1426" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -130,130 +95,24 @@
             <path>
               <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos-server-discovery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -279,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mobileos-business">
+  <component name="RunManager" selected="Application.mobileos-services">
     <configuration name="mobileos-business" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.wsilva.mobileos.MobileosBusinessApplication" />
       <module name="mobileos-business" />
@@ -317,48 +176,50 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="97" y="65" width="1426" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Jelastic" order="7" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Project Explorer" order="5" weight="0.32924837" />
-      <window_info id="Job Explorer" order="1" sideWeight="0.5008026" side_tool="true" weight="0.28655282" />
-      <window_info anchor="bottom" id="Console" order="7" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="7" weight="0.32924837" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34210527" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32721382" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32977587" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.29295623" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32837528" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.2716763" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info id="Job Explorer" order="1" sideWeight="0.5008026" side_tool="true" weight="0.28655282" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Jelastic" order="7" />
+      <window_info id="DB Browser" order="7" weight="0.32924837" />
+      <window_info id="Project Explorer" order="5" weight="0.32924837" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Console" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="DB Browser" order="4" weight="0.32924837" />
@@ -368,9 +229,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Jelastic" order="10" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -380,7 +239,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867647" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Console" order="12" />
@@ -393,6 +252,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -430,13 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/service/ApiInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="30" column="194" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="194" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/service/ApiInfo.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/ApiInfo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -474,31 +359,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/src/main/java/br/com/wsilva/mobileos/MobileosServerDiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
@@ -574,15 +438,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="300">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/src/main/java/br/com/wsilva/mobileos/MobileosServerDiscoveryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -626,7 +507,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -638,12 +519,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mobileos-business</last-edited>
+          <last-edited>mobileos-config-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
