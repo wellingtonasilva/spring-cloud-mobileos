@@ -94,15 +94,58 @@ insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (7,'PARCELAMENT
 insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (8,'REFATURAMENTO DA CONTA');
 insert into mos_servico_tipo(svtp_id, svtp_dsservicotipo) values (9,'CORTE A PEDIDO');
 
+-- Corte Tipo
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(0, 1,'NAO INFORMADO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(1, 1,'CAVALETE');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(2, 1,'CORTE COM ESCAVACAO/REATERRO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(3, 1,'LENTILHA');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(4, 1,'NO RAMAL EM LOG COM PAVIMENTO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(5, 1,'COM RETIRADA DE HIDROMETRO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(9, 1,'CORTE ADMINISTRATIVO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(12, 1,'VIA PUBLICA ASFALTADA');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(6, 1,'CALCADA EM TERRA');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(7, 1,'CALCADA - PASSEIO LADRILHO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(8, 1,'CALCADA - PASSEIO CIMENTADO');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(10, 1,'VIA PUBLICA EM TERRA');
+insert into mos_corte_tipo (cotp_id, empr_id,cotp_dscortetipo)  values(11, 1,'VIA PUBLICA EM PARALELEPIPEDO');
 
-insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
-values (1, 1, 'Corte Padrão');
+--  Empresa
+insert into mos_empresa(empr_id, empr_nmrazaosocial) values (1, 'SERVICO AUTONOMO MUNICIPAL DE AGUA E ESGOTO');
 
-insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
-values (2, 1, 'Corte a Pedido');
+--  Funcionario
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (100,1,100,'CARLOS BERNARD RODRIGUES HAHN');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (101,1,101,'THIAGO RAFAEL AYRES');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (102,1,102,'ANTONIO ESPINDOLA DE OLIVEIRA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (103,1,103,'ANTONIO LEONARDO COELHO XAVIER');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (104,1,104,'ANDERSON SANDRINI BOTEGA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (105,1,105,'KARINE LUIZ AGUIAR');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (106,1,106,'EDUARDO SOARES DARELLA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (107,1,107,'JEANE MARTINS JOAO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (108,1,108,'DEBORA QUECIA FONSECA RIBEIRO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (109,1,109,'GRASIELA SPECK');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (110,1,110,'ELISAMELIA ZOCULOTTO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (111,1,111,'JOSIEL DOS SANTOS DE MEDEIROS');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (113,1,113,'GEAN ALBINO DUARTE');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (114,1,114,'JOSE PAULO CUSTODIO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (115,1,115,'JOSIMAR FERRAZ CASPRIK');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (16,1,16,'MANUELA MATHIAS BORGES');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (2,1,2,'LUIZ FERNANDO OLIVEIRA DA SILVA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (200,1,200,'JOAO ANTONIO MACHADO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (203,1,203,'UGO LEONARDO MEDEIROS');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (204,1,204,'EDUARDO SILVANO BATISTA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (205,1,205,'RODRIGO PORTO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (24,1,24,'SAMURAI DA SILVA HIPOLITO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (3,1,3,'DAISON SCHEFFER CARDOSO');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (300,1,300,'TATIANA GONCALVES FOGACA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (7,1,7,'FABRICIO RODRIGUES DE OLIVEIRA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (112,1,112,'ANA PAULA MEDEIROS');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (215,1,215,'JADNA RODRIGUES LOPES');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (8,1,8,'REGINALDO MENDES');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (1000,1,1000,'PAULO HUMBERTO BORGES');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (120,1,120,'LUANA HOMEM DE BORBA');
+insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario) values (500,1,500,'LUCAS LUCKMANN TRISCH');
 
-insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
-values (3, 1, 'Corte no Ramal');
 
-insert into mos_corte_tipo (cotp_id, empr_id, cotp_dscortetipo)
-values (4, 1, 'Corte no Cavalete');
+--  Equipe
+insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(1,'MASTER', 'AAB1245',480);
+insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(2,'TESTE', '',360);
