@@ -17,7 +17,7 @@ CREATE TABLE mos_checklist (
     chkl_icfinalizousaida     SMALLINT,
     chkl_icfinalizouretorno   SMALLINT,
     chkl_nncnh                VARCHAR(20),
-    mos_veiculo_veic_id       INTEGER NOT NULL
+    veic_id       INTEGER NOT NULL
 );
 
 CREATE TABLE mos_checklist_grupo (

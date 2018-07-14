@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mobileos-business/mobileos-business.iml" filepath="$PROJECT_DIR$/mobileos-business/mobileos-business.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mobileos-business/mobileos-business.iml" filepath="$PROJECT_DIR$/mobileos-business/mobileos-business.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobileos-cloud.iml" filepath="$PROJECT_DIR$/mobileos-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobileos-config-server/mobileos-config-server.iml" filepath="$PROJECT_DIR$/mobileos-config-server/mobileos-config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mobileos-server-discovery/mobileos-server-discovery.iml" filepath="$PROJECT_DIR$/mobileos-server-discovery/mobileos-server-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobileos-server-discovery/mobileos-server-discovery.iml" filepath="$PROJECT_DIR$/mobileos-server-discovery/mobileos-server-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobileos-services/mobileos-services.iml" filepath="$PROJECT_DIR$/mobileos-services/mobileos-services.iml" />
     </modules>

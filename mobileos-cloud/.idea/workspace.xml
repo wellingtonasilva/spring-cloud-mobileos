@@ -19,21 +19,24 @@
     <SUITE FILE_PATH="coverage/mobileos_cloud$mobileos_business.ic" NAME="mobileos-business Coverage Results" MODIFIED="1530505712668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="90" column="22" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="465">
+              <caret line="172" column="2" lean-forward="true" selection-start-line="154" selection-end-line="172" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/data.sql">
+      <file leaf-file-name="InterrupcaoEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/InterrupcaoEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="105">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,42 +55,88 @@
     <findStrings>
       <find>&quot;</find>
       <find>);&quot;</find>
+      <find>ARMAZENAGEM</find>
+      <find>INTERRUPCAO_MOTIVO</find>
+      <find>LOGRADOURO_TIPO</find>
+      <find>MATERIAL</find>
+      <find>MOTIVO_CORTE</find>
+      <find>MOTIVO_ENCERRAMENTO</find>
+      <find>PAVIMENTO_TIPO</find>
+      <find>REDE</find>
+      <find>RELIGACAO_TIPO</find>
+      <find>VEICULO_MARCA</find>
+      <find>CHECKLISTGRUPO</find>
+      <find>mos_checklist_item</find>
+      <find>CHECKLIST_ITEM_OPCAO</find>
+      <find>INSERT INTO CHECKLIST_ITEM_OPCAO'</find>
     </findStrings>
     <replaceStrings>
       <replace>);</replace>
+      <replace>INSERT INTO mos_checklist_item_opcao(chio_id,chio_dschecklistitemopcao, chit_id)</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/repository/ServicoTipoRepository.java" />
-        <option value="$PROJECT_DIR$/mobileos-config-server/src/main/java/br/com/wsilva/mobileos/MobileosConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/config/servicotiposervices.properties" />
-        <option value="$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java" />
-        <option value="$PROJECT_DIR$/mobileos-server-discovery/src/main/java/br/com/wsilva/mobileos/MobileosServerDiscoveryApplication.java" />
-        <option value="$PROJECT_DIR$/mobileos-server-discovery/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java" />
-        <option value="$PROJECT_DIR$/mobileos-business/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/domain/ServicoTipoEntity.java" />
-        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java" />
-        <option value="$PROJECT_DIR$/mobileos-business/pom.xml" />
-        <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/ServicoTipoService.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java" />
         <option value="$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java" />
         <option value="$PROJECT_DIR$/mobileos-server-discovery/pom.xml" />
-        <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CorteTipoEntity.java" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/repository/CorteTipoRepository.java" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/CorteTipoController.java" />
-        <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/InterrupcaoMotivoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LigacaoAguaSituacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LigacaoEsgotoSituacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LocalOcorrenciaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MaterialEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MotivoCorteEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MotivoEncerramentoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoCorteEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoFotoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoInstacaoHidrometroEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoMaterialEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoReligacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/pom.xml" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoModeloEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoMarcaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/UnidadeMedidaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEspecificaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ReligacaoTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/PavimentoTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoValaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoSubstituicaoHidrometroEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListGrupoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListItemEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListItemOpcaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListRespostaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CorteTipoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EmpresaEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EquipeEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EquipeComponentesEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/FuncionarioEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroLocalArmazenamentoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroLocalInstalacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroProtecaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroSituacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroTipoInstalacaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroTipoSubstituicaoEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ImovelEntity.java" />
+        <option value="$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/InterrupcaoEntity.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="97" />
@@ -100,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,13 +180,42 @@
               <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileos-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileos-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileos-services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,9 +226,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.wsilva.mobileos.entity" />
       <recent name="br.com.wsilva.mobileos.controller" />
       <recent name="br.com.wsilva.mobileos.repository" />
-      <recent name="br.com.wsilva.mobileos.entity" />
       <recent name="br.com.wsilva.mobileos.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -211,75 +287,76 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="DB Browser" order="7" weight="0.32924837" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34210527" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32837528" />
+      <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.32954547" />
       <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Jelastic" order="7" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.27625203" />
       <window_info id="Project Explorer" order="5" weight="0.32924837" />
       <window_info id="Job Explorer" order="1" sideWeight="0.5008026" side_tool="true" weight="0.28655282" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="DB Browser" order="7" weight="0.32924837" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34210527" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32837528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.28560606" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Jelastic" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32977587" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
-      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34210527" />
+      <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="DB Browser" order="4" weight="0.32924837" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Project Explorer" order="6" weight="0.32924837" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="8" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info id="DB Browser" order="7" weight="0.32924837" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Project Explorer" order="5" weight="0.32924837" />
+      <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32837528" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Jelastic" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Job Explorer" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867647" />
+      <window_info id="Job Explorer" order="1" sideWeight="0.5008026" side_tool="true" weight="0.28655282" />
+      <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.32954547" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919742" visible="true" weight="0.28560606" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="Console" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32977587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -287,170 +364,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/wsilva/mobileos/Main.java" />
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/repository/ServicoTipoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/springfox/documentation/service/ApiInfo.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/ApiInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="148" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/java/br/com/wsilva/mobileos/MobileosConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/servicotiposervices2.properties" />
-    <entry file="file://$PROJECT_DIR$/config/servicotiposervices.properties" />
-    <entry file="file://$PROJECT_DIR$/mobileos-config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/MobileosBusinessApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/client/ServicoTipoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-business/src/main/java/br/com/wsilva/mobileos/controller/ServicoTipoBusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/src/main/java/br/com/wsilva/mobileos/MobileosServerDiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-server-discovery/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/MobileosServicesApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="89" lean-forward="true" selection-start-line="26" selection-start-column="89" selection-end-line="26" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,11 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,34 +385,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CorteTipoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/repository/CorteTipoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/CorteTipoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/repository/CorteTipoRepository.java" />
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/controller/CorteTipoController.java" />
     <entry file="file://$PROJECT_DIR$/../datamodeler/sql/sql_create_database_h2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11419">
@@ -508,17 +394,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/schema.sql">
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="90" column="22" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="494">
+          <caret line="1332" column="27" selection-start-line="1332" selection-start-column="27" selection-end-line="1332" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/data.sql">
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/InterrupcaoMotivoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LigacaoAguaSituacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LigacaoEsgotoSituacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/LocalOcorrenciaEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MaterialEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MotivoCorteEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/MotivoEncerramentoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoCorteEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoFotoEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoInstacaoHidrometroEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoMaterialEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="426">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoTipoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoModeloEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoMarcaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/VeiculoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/UnidadeMedidaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEspecificaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ServicoTipoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ReligacaoTipoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/PavimentoTipoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoValaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoSubstituicaoHidrometroEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/OrdemServicoReligacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListGrupoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CorteTipoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListRespostaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/CheckListItemOpcaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EmpresaEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EquipeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/EquipeComponentesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/FuncionarioEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroLocalArmazenamentoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroLocalInstalacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroProtecaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroSituacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroTipoInstalacaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/HidrometroTipoSubstituicaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/ImovelEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="172" column="2" lean-forward="true" selection-start-line="154" selection-end-line="172" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobileos-services/src/main/java/br/com/wsilva/mobileos/entity/InterrupcaoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

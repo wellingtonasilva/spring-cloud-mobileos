@@ -5,18 +5,17 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mos_servico_tipo")
+@Table(name = "mos_checklist_grupo")
 @Data
-public class ServicoTipoEntity {
+public class CheckListGrupoEntity {
     @Id
-    @Column(name = "svtp_id")
+    @Column(name = "chgr_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @Column(name = "chgr_dschecklistgrupo")
     private String descricao;
 
-    public ServicoTipoEntity() {
+    public CheckListGrupoEntity() {
     }
 }
-

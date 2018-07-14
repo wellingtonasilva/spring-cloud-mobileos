@@ -5,18 +5,18 @@ import lombok.Data;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mos_servico_tipo")
+@Table(name = "mos_veiculo_modelo")
 @Data
-public class ServicoTipoEntity {
+public class VeiculoModeloEntity {
     @Id
-    @Column(name = "svtp_id")
+    @Column(name = "vemo_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @Column(name = "vemo_dsveiculomodelo")
     private String descricao;
 
-    public ServicoTipoEntity() {
+    public VeiculoModeloEntity() {
     }
 }
 

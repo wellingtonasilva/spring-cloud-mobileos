@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "mos_servico_tipo")
 @Data
-public class ServicoTipoEntity {
+public class VeiculoTipoEntity {
     @Id
     @Column(name = "svtp_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -16,7 +16,7 @@ public class ServicoTipoEntity {
     @Column(name = "svtp_dsservicotipo")
     private String descricao;
 
-    public ServicoTipoEntity() {
+    public VeiculoTipoEntity() {
     }
 }
 
