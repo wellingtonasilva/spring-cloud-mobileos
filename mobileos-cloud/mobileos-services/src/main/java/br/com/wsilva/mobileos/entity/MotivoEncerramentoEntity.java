@@ -1,35 +1,21 @@
 package br.com.wsilva.mobileos.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mos_servico_tipo")
+@Table(name = "mos_motivo_encerramento")
+@Data
 public class MotivoEncerramentoEntity {
     @Id
-    @Column(name = "svtp_id")
+    @Column(name = "mote_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @Column(name = "mote_dsmotivoencerramento")
     private String descricao;
 
     public MotivoEncerramentoEntity() {
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 }
-

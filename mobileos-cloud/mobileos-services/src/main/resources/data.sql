@@ -194,8 +194,8 @@ insert into mos_funcionario(func_id,empr_id,func_nnmatricula,func_nmfuncionario)
 
 
 --  Equipe
-insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(1,'MASTER', 'AAB1245',480);
-insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(2,'TESTE', '',360);
+insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(1, 1, 'MASTER', 'AAB1245',480);
+insert into mos_equipe (eqpe_id,empr_id,eqpe_nmequipe,eqpe_nnplacaveiculo,eqpe_cargahorariotrabalho)  values(2, 1, 'TESTE', '',360);
 
 
 --  mos_hidrometro_local_armaz
@@ -344,51 +344,51 @@ VALUES (4, 'SUBSTITUICAO HM POR SIMPLES TROCA');
 
 
 --  mos_interrupcao_motivo
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (1, 'Inciar Atividade', NULL, 0, 0, 1, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (1, 'Inciar Atividade');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (3, 'DDS', NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (3, 'DDS');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (4, 'Reposição de Material', NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (4, 'Reposição de Material');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (5, 'Abastecimento', NULL, 0, 0, 0, 0, 0, 0, 1, 1);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (5, 'Abastecimento');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (6, 'Instrução', NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (6, 'Instrução');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (7, 'Espera de Manobra', NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (7, 'Espera de Manobra');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (8, 'Defeito no Veiculo', NULL, 0, 0, 0, 0, 0, 0, 1, 1);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (8, 'Defeito no Veiculo');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (9, 'Almoço', NULL, 0, 0, 0, 0, 0, 0, 1, 1);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (9, 'Almoço');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (10, 'Apoio a outra equipe', NULL, 0, 0, 0, 0, 0, 0, 1, 1);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (10, 'Apoio a outra equipe');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (11, 'Assunto Pessoal', NULL, 0, 0, 0, 0, 0, 0, 1, 1);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (11, 'Assunto Pessoal');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (12, 'Reunião', NULL, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (12, 'Reunião');
 
-INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo, inmo_dsabreviado, inmo_icenviarsmsinicio, inmo_icenviarsmsfim, inmo_icinicioatividade, inmo_icchecklistsaida, inmo_icchecklistretorno, inmo_icsolicitakminicio, inmo_iccsolicitakmfim)
-VALUES (14, 'Fim Atividade', NULL, 0, 1, 0, 1, 0, 0, 0, 0);
+INSERT INTO mos_interrupcao_motivo (inmo_id, inmo_dsinterrupcaomotivo)
+VALUES (14, 'Fim Atividade');
 
 
 --  mos_local_ocorrencia
-INSERT INTO mos_local_ocorrencia
+INSERT INTO mos_local_ocorrencia (loco_id, loco_dslocalocorrencia)
 VALUES (1, 'RUA');
 
-INSERT INTO mos_local_ocorrencia
+INSERT INTO mos_local_ocorrencia (loco_id, loco_dslocalocorrencia)
 VALUES (2, 'SOLO BRUTO');
 
-INSERT INTO mos_local_ocorrencia
+INSERT INTO mos_local_ocorrencia (loco_id, loco_dslocalocorrencia)
 VALUES (3, 'CALÇADA');
 
 
@@ -441,29 +441,29 @@ VALUES (3, 'CALÇADA');
 
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (1, 'COLAR DE TOMADA FoFo DE 200MMX3/4\"', 1, 'Unidade', NULL);
+VALUES (1, 'COLAR DE TOMADA FoFo DE 200MMX3/4\"', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (2, 'COLAR DE TOMADA FoFo DE 250MMX1\"', 1, 'Unidade', NULL);
+VALUES (2, 'COLAR DE TOMADA FoFo DE 250MMX1\"', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (3, 'COLAR DE TOMADA FoFo DE 250MMX1/2\"', 1, 'Unidade', NULL);
+VALUES (3, 'COLAR DE TOMADA FoFo DE 250MMX1/2\"', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (4, 'COLAR DE TOMADA FoFo DE 250MMX1/2\"', 1, 'Unidade', NULL);
+VALUES (4, 'COLAR DE TOMADA FoFo DE 250MMX1/2\"', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (5, 'COLAR DE TOMADA FoFo DE 250MMX3/4\"', 1, 'Unidade', NULL);
+VALUES (5, 'COLAR DE TOMADA FoFo DE 250MMX3/4\"', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (6, 'COLAR DE TOMADA FoFo DE 300MMX1\"', 1, 'Unidade', NULL);
+VALUES (6, 'COLAR DE TOMADA FoFo DE 300MMX1\"', 1, 'Unidade');
 
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (7, 'LUVA DE FoFo TRIPARTIDA DN 400MM', 1, 'Unidade', NULL);
+VALUES (7, 'LUVA DE FoFo TRIPARTIDA DN 400MM', 1, 'Unidade');
 
 INSERT INTO mos_material (mate_id, mate_dsmaterial, unid_id, mate_dsunidade)
-VALUES (8, 'REDUÇÃO FoFo C/FLANGE 100X50MM', 1, 'Unidade', NULL);
+VALUES (8, 'REDUÇÃO FoFo C/FLANGE 100X50MM', 1, 'Unidade');
 
 
 
@@ -706,30 +706,30 @@ VALUES (8, 'NORMALIZACAO DE LIGACAO');
 
 
 INSERT INTO mos_veiculo_marca(vemr_id,vemr_dsveiculomarca)
-VALUES (0, 'NAO INFORMADO', NULL);
+VALUES (0, 'NAO INFORMADO');
 
-INSERT INTO mos_veiculo_marca(vemr_id,vemr_dsveiculomarca)
-VALUES (0, 'NAO INFORMADO', 'N/I');
+INSERT INTO mos_veiculo_modelo(vemo_id,vemo_dsveiculomodelo)
+VALUES (0, 'NAO INFORMADO');
 
-INSERT INTO mos_veiculo_marca(vemr_id,vemr_dsveiculomarca)
-VALUES (0, 'NAO INFORMADO', 'N/I');
+INSERT INTO mos_veiculo_tipo(vetp_id,vetp_dsveiculotipo)
+VALUES (0, 'NAO INFORMADO');
 
 
-
-INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
-VALUES (1, 'Fluidos', NULL);
 
 INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
-VALUES (2, 'Possui', NULL);
+VALUES (1, 'Fluidos');
 
 INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
-VALUES (3, 'Eletrica', NULL);
+VALUES (2, 'Possui');
 
 INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
-VALUES (4, 'Verificar', NULL);
+VALUES (3, 'Eletrica');
 
 INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
-VALUES (5, 'Funilaria e pintura', NULL);
+VALUES (4, 'Verificar');
+
+INSERT INTO mos_checklist_grupo(chgr_id,chgr_dschecklistgrupo)
+VALUES (5, 'Funilaria e pintura');
 
 
 

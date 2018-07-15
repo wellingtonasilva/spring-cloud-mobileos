@@ -1,35 +1,25 @@
 package br.com.wsilva.mobileos.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mos_servico_tipo")
+@Table(name = "mos_ligacao_agua_situacao")
+@Data
 public class LigacaoAguaSituacaoEntity {
     @Id
-    @Column(name = "svtp_id")
+    @Column(name = "lags_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @ManyToOne
+    @JoinColumn(name = "empr_id")
+    private EmpresaEntity empresa;
+
+    @Column(name = "lags_dsligacaosituacaoagua")
     private String descricao;
 
     public LigacaoAguaSituacaoEntity() {
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 }
-

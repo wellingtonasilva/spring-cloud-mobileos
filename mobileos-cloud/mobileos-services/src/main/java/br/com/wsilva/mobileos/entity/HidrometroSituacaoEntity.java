@@ -17,7 +17,6 @@ public class HidrometroSituacaoEntity {
     @JoinColumn(name = "empr_id")
     private EmpresaEntity empresa;
 
-
     @Column(name = "hdst_dstiposituacaohm")
     private String descricao;
 

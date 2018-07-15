@@ -35,8 +35,9 @@ public class OrdemServicoSubstituicaoHidrometroEntity {
     @JoinColumn(name = "hdst_id")
     private HidrometroSituacaoEntity hidrometroSituacao;
 
-    @Column(name = "hdla_id")
-    private Integer hdla_id;
+    @ManyToOne
+    @JoinColumn(name = "hdla_id")
+    private HidrometroLocalArmazenamentoEntity hidrometroLocalArmazenamento;
 
     @Column(name = "ossh_nnhidrometronovo", length = 20)
     private String numeroHidrometroNovo;
@@ -47,11 +48,13 @@ public class OrdemServicoSubstituicaoHidrometroEntity {
     @Column(name = "ossh_ictipomedicao")
     private Integer indicadorTipoMedicao;
 
-    @Column(name = "hloi_id")
-    private Integer hloi_id;
+    @ManyToOne
+    @JoinColumn(name = "hloi_id")
+    private HidrometroLocalInstalacaoEntity hidrometroLocalInstalacao;
 
-    @Column(name = "hpro_id")
-    private Integer hpro_id;
+    @ManyToOne
+    @JoinColumn(name = "hpro_id")
+    private HidrometroProtecaoEntity hidrometroProtecao;
 
     @Column(name = "ossh_ictrocaprotecao")
     private Integer indicadorTrocaProtecao;
@@ -68,8 +71,9 @@ public class OrdemServicoSubstituicaoHidrometroEntity {
     @Column(name = "ossh_iccavalete", length = 1)
     private String indicadorCavalete;
 
-    @Column(name = "hits_id")
-    private Integer hits_id;
+    @ManyToOne
+    @JoinColumn(name = "hits_id")
+    private HidrometroTipoSubstituicaoEntity hidrometroTipoSubstituicao;
 
     @Column(name = "ossh_tminstalacao", length = 10)
     private String ossh_tminstalacao;

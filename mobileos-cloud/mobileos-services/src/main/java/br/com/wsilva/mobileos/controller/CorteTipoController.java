@@ -2,13 +2,12 @@ package br.com.wsilva.mobileos.controller;
 
 import br.com.wsilva.mobileos.entity.CorteTipoEntity;
 import br.com.wsilva.mobileos.repository.CorteTipoRepository;
+import com.netflix.ribbon.proxy.annotation.Http;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,5 +27,21 @@ public class CorteTipoController {
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public CorteTipoEntity findById(@PathVariable("id") Long id) {
         return this.repository.findOne(id);
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    public CorteTipoEntity save(@RequestBody CorteTipoEntity entity) {
+        return this.repository.save(entity);
+    }
+
+    @RequestMapping(method = RequestMethod.PUT)
+    public CorteTipoEntity update(@RequestBody CorteTipoEntity entity) {
+        return this.repository.save(entity);
+    }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public String delete(@PathVariable("id") Long id) {
+        this.repository.delete(id);
+        return HttpStatus.OK.toString();
     }
 }

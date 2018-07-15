@@ -13,6 +13,7 @@ public class HidrometroLocalArmazenamentoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @ManyToOne
     @JoinColumn(name = "empr_id")
     private EmpresaEntity empresa;
 

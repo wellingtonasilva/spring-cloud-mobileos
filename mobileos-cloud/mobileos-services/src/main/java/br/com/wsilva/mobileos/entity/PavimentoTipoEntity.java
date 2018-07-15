@@ -13,7 +13,11 @@ public class PavimentoTipoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @ManyToOne
+    @JoinColumn(name = "empr_id")
+    private EmpresaEntity empresa;
+
+    @Column(name = "pavt_dspavimentotipo")
     private String pavt_dspavimentotipo;
 
     public PavimentoTipoEntity() {

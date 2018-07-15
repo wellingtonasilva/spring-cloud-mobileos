@@ -13,6 +13,10 @@ public class ReligacaoTipoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @ManyToOne
+    @JoinColumn(name = "empr_id")
+    private EmpresaEntity empresa;
+
     @Column(name = "rept_dsreligacaotipo")
     private String descricao;
 

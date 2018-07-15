@@ -3,33 +3,20 @@ package br.com.wsilva.mobileos.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "mos_servico_tipo")
+@Table(name = "mos_local_ocorrencia")
 public class LocalOcorrenciaEntity {
     @Id
-    @Column(name = "svtp_id")
+    @Column(name = "loco_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "svtp_dsservicotipo")
+    @ManyToOne
+    @JoinColumn(name = "empr_id")
+    private EmpresaEntity empresa;
+
+    @Column(name = "loco_dslocalocorrencia")
     private String descricao;
 
     public LocalOcorrenciaEntity() {
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 }
-

@@ -14,19 +14,19 @@ public class VeiculoEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "vemr_id")
     private VeiculoMarcaEntity veiculoMarca;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "vemo_id")
     private VeiculoModeloEntity veiculoModelo;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "vetp_id")
     private VeiculoTipoEntity veiculoTipo;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "empr_id")
     private EmpresaEntity empresa;
 

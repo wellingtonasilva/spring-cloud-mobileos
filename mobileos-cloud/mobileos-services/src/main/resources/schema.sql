@@ -2,22 +2,22 @@
 --   at:        2018-07-01 20:20:39 AMT
 --   site:      Oracle9i
 --   type:      Oracle9i
-CREATE TABLE mos_checklist (
+CREATE TABLE mos_checklist(
     chkl_id                   BIGINT AUTO_INCREMENT PRIMARY KEY,
-    chkl_dtmovimento          TIMESTAMP WITHOUT TIME ZONE,
+    chkl_dtmovimento          TIMESTAMP,
     chkl_dstipoveiculo        VARCHAR(60),
     chkl_nnmatricula          INTEGER,
     chkl_nmcondutor           VARCHAR(60),
     chkl_nmsetor              VARCHAR(60),
-    chkl_dtsaida              TIMESTAMP WITHOUT TIME ZONE,
+    chkl_dtsaida              TIMESTAMP,
     chkl_nnkmsaida            FLOAT,
-    chkl_dtretorno            TIMESTAMP WITHOUT TIME ZONE,
+    chkl_dtretorno            TIMESTAMP,
     chkl_nnkmretorno          FLOAT,
     chkl_nnplacaveiculo       VARCHAR(20),
     chkl_icfinalizousaida     SMALLINT,
     chkl_icfinalizouretorno   SMALLINT,
     chkl_nncnh                VARCHAR(20),
-    veic_id       INTEGER NOT NULL
+    veic_id                   INTEGER
 );
 
 CREATE TABLE mos_checklist_grupo (
@@ -27,30 +27,30 @@ CREATE TABLE mos_checklist_grupo (
 
 CREATE TABLE mos_checklist_item (
     chit_id                BIGINT AUTO_INCREMENT PRIMARY KEY,
-    chgr_id                INTEGER NOT NULL,
+    chgr_id                INTEGER ,
     chit_dschecklistitem   VARCHAR(60)
 );
 
 CREATE TABLE mos_checklist_item_opcao (
     chio_id                     BIGINT AUTO_INCREMENT PRIMARY KEY,
-    chit_id                     INTEGER NOT NULL,
+    chit_id                     INTEGER ,
     chio_dschecklistitemopcao   VARCHAR(60)
 );
 
 CREATE TABLE mos_checklist_resposta (
     chre_id                 BIGINT AUTO_INCREMENT PRIMARY KEY,
-    chre_dtmovimento        TIMESTAMP WITHOUT TIME ZONE,
+    chre_dtmovimento        TIMESTAMP,
     chre_nnplacaveiculo     VARCHAR(20),
-    chre_tmsaida            TIMESTAMP WITHOUT TIME ZONE,
+    chre_tmsaida            TIMESTAMP,
     chre_tmretorno          VARCHAR(10),
-    chio_idsaida            INTEGER NOT NULL,
-    chio_idretorno          INTEGER NOT NULL,
-    mos_checklist_chkl_id   INTEGER NOT NULL
+    chio_idsaida            INTEGER ,
+    chio_idretorno          INTEGER ,
+    mos_checklist_chkl_id   INTEGER 
 );
 
 CREATE TABLE mos_corte_tipo (
     cotp_id            BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id            INTEGER NOT NULL,
+    empr_id            INTEGER ,
     cotp_dscortetipo   VARCHAR(60)
 );
 
@@ -71,7 +71,7 @@ CREATE TABLE mos_empresa (
 
 CREATE TABLE mos_equipe (
     eqpe_id                     BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                     INTEGER NOT NULL,
+    empr_id                     INTEGER ,
     eqpe_nmequipe               VARCHAR(60),
     eqpe_nnplacaveiculo         VARCHAR(20),
     eqpe_cargahorariotrabalho   SMALLINT
@@ -79,14 +79,14 @@ CREATE TABLE mos_equipe (
 
 CREATE TABLE mos_equipe_componentes (
     eqpc_id              BIGINT AUTO_INCREMENT PRIMARY KEY,
-    eqpe_id              INTEGER NOT NULL,
-    func_id              INTEGER NOT NULL,
+    eqpe_id              INTEGER ,
+    func_id              INTEGER ,
     eqpc_icresponsavel   VARCHAR(1)
 );
 
 CREATE TABLE mos_funcionario (
     func_id              BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id              INTEGER NOT NULL,
+    empr_id              INTEGER ,
     func_nnmatricula     INTEGER,
     func_nmfuncionario   VARCHAR(60),
     func_nncnh           VARCHAR(20)
@@ -95,46 +95,46 @@ CREATE TABLE mos_funcionario (
 
 CREATE TABLE mos_hidrometro_local_armaz (
     hdla_id                   BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                   INTEGER NOT NULL,
+    empr_id                   INTEGER ,
     hdla_dslocalarmazenagem   VARCHAR(60)
 );
 
 CREATE TABLE mos_hidrometro_local_inst (
     hloi_id                  BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                  INTEGER NOT NULL,
+    empr_id                  INTEGER ,
     hloi_dslocalinstalacao   VARCHAR(60)
 );
 
 CREATE TABLE mos_hidrometro_protecao (
     hpro_id           BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id           INTEGER NOT NULL,
+    empr_id           INTEGER ,
     hpro_dsprotecao   VARCHAR(60)
 );
 
 
 CREATE TABLE mos_hidrometro_situacao (
     hdst_id                 BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                 INTEGER NOT NULL,
+    empr_id                 INTEGER ,
     hdst_dstiposituacaohm   VARCHAR(60)
 );
 
 CREATE TABLE mos_hidrometro_tipo_instal (
     htpi_id                   BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                   INTEGER NOT NULL,
+    empr_id                   INTEGER ,
     htpi_dstipoinstalacaohm   VARCHAR(60)
 );
 
 CREATE TABLE mos_hidrometro_tipo_subs (
     hits_id                   BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                   INTEGER NOT NULL,
+    empr_id                   INTEGER ,
     hits_dstiposubstituicao   VARCHAR(60)
 );
 
 CREATE TABLE mos_imovel (
     imov_id                      BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                      INTEGER NOT NULL,
-    legs_id                      INTEGER NOT NULL,
-    lags_id                      INTEGER NOT NULL,
+    empr_id                      INTEGER ,
+    legs_id                      INTEGER ,
+    lags_id                      INTEGER ,
     imov_nninscricao             VARCHAR(30),
     imov_nmclienteresponsavel    VARCHAR(60),
     imov_nmclienteusuario        VARCHAR(60),
@@ -147,17 +147,17 @@ CREATE TABLE mos_imovel (
     imov_icsituacaofaturamento   SMALLINT,
     imov_nnrota                  SMALLINT,
     imov_nnsequenciarota         SMALLINT,
-    imov_dtligacao               TIMESTAMP WITHOUT TIME ZONE,
+    imov_dtligacao               TIMESTAMP,
     imov_nnhidrometro            VARCHAR(20),
-    imov_dtinstalacaohm          TIMESTAMP WITHOUT TIME ZONE
+    imov_dtinstalacaohm          TIMESTAMP
 );
 
 CREATE TABLE mos_interrupcao (
     inte_id                    BIGINT AUTO_INCREMENT PRIMARY KEY,
-    inmo_id                    INTEGER NOT NULL,
-    empr_id                    INTEGER NOT NULL,
-    eqpe_id                    INTEGER NOT NULL,
-    inte_dtmovimento           TIMESTAMP WITHOUT TIME ZONE,
+    inmo_id                    INTEGER ,
+    empr_id                    INTEGER ,
+    eqpe_id                    INTEGER ,
+    inte_dtmovimento           TIMESTAMP,
     inte_nmequipe              VARCHAR(60),
     inte_nnmatricula           INTEGER,
     inte_nnos                  INTEGER,
@@ -174,7 +174,7 @@ CREATE TABLE mos_interrupcao (
 
 CREATE TABLE mos_interrupcao_motivo (
     inmo_id                    BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                    INTEGER NOT NULL,
+    empr_id                    INTEGER ,
     inmo_dsinterrupcaomotivo   VARCHAR(60),
     inmo_dsabreviado           VARCHAR(5),
     inmo_icenviarsmsinicio     SMALLINT,
@@ -188,33 +188,33 @@ CREATE TABLE mos_interrupcao_motivo (
 
 CREATE TABLE mos_ligacao_agua_situacao (
     lags_id                      BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                      INTEGER NOT NULL,
+    empr_id                      INTEGER ,
     lags_dsligacaosituacaoagua   VARCHAR(60)
 );
 
 CREATE TABLE mos_ligacao_esgoto_situacao (
     legs_id                        BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                        INTEGER NOT NULL,
+    empr_id                        INTEGER ,
     legs_dsligacaoesgotosituacao   VARCHAR(60)
-)
+);
 
 CREATE TABLE mos_local_ocorrencia (
     loco_id                  BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                  INTEGER NOT NULL,
+    empr_id                  INTEGER ,
     loco_dslocalocorrencia   VARCHAR(60)
 );
 
 CREATE TABLE mos_material (
     mate_id           BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id           INTEGER NOT NULL,
+    empr_id           INTEGER ,
     mate_dsmaterial   VARCHAR(60),
-    unid_id           INTEGER NOT NULL,
+    unid_id           INTEGER ,
     mate_dsunidade    VARCHAR(60)
 );
 
 CREATE TABLE mos_motivo_corte (
     mcor_id              BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id              INTEGER NOT NULL,
+    empr_id              INTEGER ,
     mcor_dsmotivocorte   VARCHAR(60)
 );
 
@@ -226,43 +226,43 @@ CREATE TABLE mos_motivo_encerramento (
 
 CREATE TABLE mos_ordem_servico (
     orse_id                       BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                       INTEGER NOT NULL,
+    empr_id                       INTEGER ,
     orse_cdsituacao               INTEGER,
     orse_dssituacao               VARCHAR(25),
-    orse_tmgeracao                TIMESTAMP WITHOUT TIME ZONE,
+    orse_tmgeracao                TIMESTAMP,
     orse_dsobservacao             VARCHAR(400),
     rgat_id                       INTEGER,
     rgat_cdsituacao               INTEGER,
     rgat_dssituacao               VARCHAR(25),
-    rgat_tmregistroatendimento    TIMESTAMP WITHOUT TIME ZONE,
+    rgat_tmregistroatendimento    TIMESTAMP,
     rgat_dsobservacao             VARCHAR(400),
-    svtp_id                       INTEGER NOT NULL,
+    svtp_id                       INTEGER ,
     logr_nmlogradouro             VARCHAR(60),
     bair_nmbairro                 VARCHAR(60),
     rgat_nnimovel                 VARCHAR(20),
     clie_id                       INTEGER,
     imov_id                       INTEGER,
     clie_nmcliente                VARCHAR(60),
-    svtp_idexecutado              INTEGER NOT NULL,
-    orse_tmencerramento           TIMESTAMP WITHOUT TIME ZONE,
-    mote_id                       INTEGER NOT NULL,
+    svtp_idexecutado              INTEGER ,
+    orse_tmencerramento           TIMESTAMP,
+    mote_id                       INTEGER ,
     orse_dsparecerencerramento    VARCHAR(400),
     orse_dtexecucao               NUMBER,
     orse_tmexecucao_inicio        VARCHAR(10),
     orse_tmexecucao_fim           VARCHAR(10),
-    eqpe_idexecucao               INTEGER NOT NULL,
+    eqpe_idexecucao               INTEGER ,
     orse_nnprofunidaderede        VARCHAR(25),
     orse_nnpressaorede            VARCHAR(25),
-    orse_tmcancelamento           TIMESTAMP WITHOUT TIME ZONE,
-    svtp_idgerar                  INTEGER NOT NULL,
+    orse_tmcancelamento           TIMESTAMP,
+    svtp_idgerar                  INTEGER ,
     orse_nnkminicial              INTEGER,
     orse_nnkmfinal                INTEGER,
-    orse_dtprogramacao            TIMESTAMP WITHOUT TIME ZONE,
-    eqpe_idprogramada             INTEGER NOT NULL,
-    hidr_nnanofabricacao          INTERVAL DAY(9) TO SECOND(0),
+    orse_dtprogramacao            TIMESTAMP,
+    eqpe_idprogramada             INTEGER ,
+    hidr_nnanofabricacao          INTEGER,
     hidr_nnhidrometro             VARCHAR(20),
     rgat_dscomplementoendereco    VARCHAR(60),
-    hidi_dtinstalacaohidrometro   TIMESTAMP WITHOUT TIME ZONE,
+    hidi_dtinstalacaohidrometro   TIMESTAMP,
     hidi_nnselo                   VARCHAR(20),
     imov_nnlote                   INTEGER,
     qdra_nnquadra                 VARCHAR(10),
@@ -273,11 +273,11 @@ CREATE TABLE mos_ordem_servico (
 
 CREATE TABLE mos_ordem_servico_corte (
     osco_id               BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id               INTEGER NOT NULL,
-    mcor_id               INTEGER NOT NULL,
-    cotp_id               INTEGER NOT NULL,
-    func_id               INTEGER NOT NULL,
-    osco_dtcorte          TIMESTAMP WITHOUT TIME ZONE,
+    orse_id               INTEGER ,
+    mcor_id               INTEGER ,
+    cotp_id               INTEGER ,
+    func_id               INTEGER ,
+    osco_dtcorte          TIMESTAMP,
     osco_tmcorte          VARCHAR(10),
     osco_nnleituracorte   INTEGER,
     osco_nnselocorte      VARCHAR(20)
@@ -285,23 +285,23 @@ CREATE TABLE mos_ordem_servico_corte (
 
 CREATE TABLE mos_ordem_servico_foto (
     osft_id            BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id            INTEGER NOT NULL,
+    orse_id            INTEGER ,
     osft_nmfoto        VARCHAR(60),
     osft_dsfoto        VARCHAR(60),
     osft_nnlatitude    VARCHAR(25),
     osft_nnlongitude   VARCHAR(25),
-    osft_dtfoto        TIMESTAMP WITHOUT TIME ZONE,
+    osft_dtfoto        TIMESTAMP,
     osft_fttipo        SMALLINT,
     osft_foto          BLOB
 );
 
 CREATE TABLE mos_ordem_servico_insthm (
     osih_id                    BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id                    INTEGER NOT NULL,
-    hloi_id                    INTEGER NOT NULL,
-    hpro_id                    INTEGER NOT NULL,
-    htpi_id                    INTEGER NOT NULL,
-    osih_dtinstalacao          TIMESTAMP WITHOUT TIME ZONE,
+    orse_id                    INTEGER ,
+    hloi_id                    INTEGER ,
+    hpro_id                    INTEGER ,
+    htpi_id                    INTEGER ,
+    osih_dtinstalacao          TIMESTAMP,
     osih_ictipoprotecao        VARCHAR(1),
     osih_ictrocaprotecao       SMALLINT,
     osih_ictrocaregistro       SMALLINT,
@@ -312,59 +312,59 @@ CREATE TABLE mos_ordem_servico_insthm (
 
 CREATE TABLE mos_ordem_servico_material (
     osmu_id             BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id             INTEGER NOT NULL,
-    mate_id             INTEGER NOT NULL,
+    orse_id             INTEGER ,
+    mate_id             INTEGER ,
     mate_dsmaterial     VARCHAR(60),
-    unid_id             INTEGER NOT NULL,
+    unid_id             INTEGER ,
     unid_dsunidade      VARCHAR(60),
     osmu_nnquantidade   FLOAT
 );
 
 CREATE TABLE mos_ordem_servico_religacao (
     osre_id                   BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id                   INTEGER NOT NULL,
-    osre_dtreligacao          TIMESTAMP WITHOUT TIME ZONE,
+    orse_id                   INTEGER ,
+    osre_dtreligacao          TIMESTAMP,
     osre_tmreligacao          VARCHAR(10),
     osre_nnhidrometro         VARCHAR(20),
-    osre_dtinstalacao         TIMESTAMP WITHOUT TIME ZONE,
+    osre_dtinstalacao         TIMESTAMP,
     osre_nneiturainstalacao   INTEGER,
     osre_nnselo               VARCHAR(20),
     osre_iccavelete           VARCHAR(1),
     osre_ictrocaprotecao      SMALLINT,
     osre_ictrocaregistro      SMALLINT,
-    hloi_id                   INTEGER NOT NULL,
-    hpro_id                   INTEGER NOT NULL,
-    retp_id                   INTEGER NOT NULL
+    hloi_id                   INTEGER ,
+    hpro_id                   INTEGER ,
+    retp_id                   INTEGER 
 );
 
 CREATE TABLE mos_ordem_servico_subshm (
     ossh_id                    BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id                    INTEGER NOT NULL,
+    orse_id                    INTEGER ,
     ossh_nnhidrometroatual     VARCHAR(20),
     ossh_ictipomedicaoatual    SMALLINT,
-    ossh_dtretirada            TIMESTAMP WITHOUT TIME ZONE,
+    ossh_dtretirada            TIMESTAMP,
     ossh_nnleituraretirada     INTEGER,
-    hdst_id                    INTEGER NOT NULL,
-    hdla_id                    INTEGER NOT NULL,
+    hdst_id                    INTEGER ,
+    hdla_id                    INTEGER ,
     ossh_nnhidrometronovo      VARCHAR(20),
-    ossh_dtinstalacao          TIMESTAMP WITHOUT TIME ZONE,
+    ossh_dtinstalacao          TIMESTAMP,
     ossh_ictipomedicao         SMALLINT,
-    hloi_id                    INTEGER NOT NULL,
-    hpro_id                    INTEGER NOT NULL,
+    hloi_id                    INTEGER ,
+    hpro_id                    INTEGER ,
     ossh_ictrocaprotecao       SMALLINT,
     ossh_ictrocaregistro       SMALLINT,
     ossh_nnleiturainstalacao   INTEGER,
     ossh_nnselo                VARCHAR(20),
     ossh_iccavalete            VARCHAR(1),
-    hits_id                    INTEGER NOT NULL,
+    hits_id                    INTEGER ,
     ossh_tminstalacao          VARCHAR(10)
 );
 
 CREATE TABLE mos_ordem_servico_vala (
     osva_id               BIGINT AUTO_INCREMENT PRIMARY KEY,
-    orse_id               INTEGER NOT NULL,
-    loco_id               INTEGER NOT NULL,
-    pavt_id               INTEGER NOT NULL,
+    orse_id               INTEGER ,
+    loco_id               INTEGER ,
+    pavt_id               INTEGER ,
     osva_nnvala           SMALLINT,
     osva_nncomprimento    FLOAT,
     osva_nnlargura        FLOAT,
@@ -376,13 +376,13 @@ CREATE TABLE mos_ordem_servico_vala (
 
 CREATE TABLE mos_pavimento_tipo (
     pavt_id                BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                INTEGER NOT NULL,
+    empr_id                INTEGER ,
     pavt_dspavimentotipo   VARCHAR(60)
 );
 
 CREATE TABLE mos_religacao_tipo (
-    retp_id                INTEGER NOT NULL,
-    empr_id                INTEGER NOT NULL,
+    retp_id                INTEGER ,
+    empr_id                INTEGER ,
     rept_dsreligacaotipo   VARCHAR(60)
 );
 
@@ -393,42 +393,42 @@ CREATE TABLE mos_servico_tipo (
 
 CREATE TABLE mos_servico_tipo_especificacao (
     step_id                  BIGINT AUTO_INCREMENT PRIMARY KEY,
-    svtp_id                  INTEGER NOT NULL,
+    svtp_id                  INTEGER ,
     step_dssolicitacaotipo   VARCHAR(60)
 );
 
 CREATE TABLE mos_unidade_medida (
     unid_id          BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id          INTEGER NOT NULL,
+    empr_id          INTEGER ,
     unid_dsunidade   VARCHAR(60)
 );
 
 CREATE TABLE mos_veiculo (
     veic_id                 BIGINT AUTO_INCREMENT PRIMARY KEY,
-    vemr_id                 INTEGER NOT NULL,
-    vemo_id                 INTEGER NOT NULL,
-    vetp_id                 INTEGER NOT NULL,
-    empr_id                 INTEGER NOT NULL,
+    vemr_id                 INTEGER ,
+    vemo_id                 INTEGER ,
+    vetp_id                 INTEGER ,
+    empr_id                 INTEGER ,
     veic_nnplaca            VARCHAR(20),
     veic_nnkmacumulada      FLOAT,
-    veic_dtultimarevisao    TIMESTAMP WITHOUT TIME ZONE,
-    veic_dtproximarevisao   TIMESTAMP WITHOUT TIME ZONE
+    veic_dtultimarevisao    TIMESTAMP,
+    veic_dtproximarevisao   TIMESTAMP
 );
 
 CREATE TABLE mos_veiculo_marca (
     vemr_id               BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id               INTEGER NOT NULL,
+    empr_id               INTEGER ,
     vemr_dsveiculomarca   VARCHAR(60)
 );
 
 CREATE TABLE mos_veiculo_modelo (
     vemo_id                BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id                INTEGER NOT NULL,
+    empr_id                INTEGER ,
     vemo_dsveiculomodelo   VARCHAR(60)
 );
 
 CREATE TABLE mos_veiculo_tipo (
     vetp_id              BIGINT AUTO_INCREMENT PRIMARY KEY,
-    empr_id              INTEGER NOT NULL,
+    empr_id              INTEGER ,
     vetp_dsveiculotipo   VARCHAR(60)
 );
