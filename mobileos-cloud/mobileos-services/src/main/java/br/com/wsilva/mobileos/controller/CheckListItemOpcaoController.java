@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "checkListItemOpcao")
+@RequestMapping(value = "/checkListItemOpcao")
 public class CheckListItemOpcaoController {
     @Autowired
     private CheckListItemOpcaoRepository repository;

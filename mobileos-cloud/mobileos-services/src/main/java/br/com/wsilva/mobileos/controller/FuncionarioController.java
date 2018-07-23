@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "funcionario")
+@RequestMapping(value = "/funcionario")
 public class FuncionarioController {
     @Autowired
     private FuncionarioRepository repository;

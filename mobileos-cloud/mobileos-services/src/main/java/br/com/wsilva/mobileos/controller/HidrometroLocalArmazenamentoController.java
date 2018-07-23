@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "hidrometroLocalArmazenamento")
+@RequestMapping(value = "/hidrometroLocalArmazenamento")
 public class HidrometroLocalArmazenamentoController {
     @Autowired
     private HidrometroLocalArmazenamentoRepository repository;
