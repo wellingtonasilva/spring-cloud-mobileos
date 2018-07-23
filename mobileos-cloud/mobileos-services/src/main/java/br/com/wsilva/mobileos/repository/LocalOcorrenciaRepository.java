@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface LocalOcorrenciaRepository extends CrudRepository<LocalOcorrenciaEntity, Integer> {
+public interface LocalOcorrenciaRepository extends CrudRepository<LocalOcorrenciaEntity, Long> {
 }

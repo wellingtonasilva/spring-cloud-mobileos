@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface LigacaoAguaSituacaoRepository extends CrudRepository<LigacaoAguaSituacaoEntity, Integer> {
+public interface LigacaoAguaSituacaoRepository extends CrudRepository<LigacaoAguaSituacaoEntity, Long> {
 }

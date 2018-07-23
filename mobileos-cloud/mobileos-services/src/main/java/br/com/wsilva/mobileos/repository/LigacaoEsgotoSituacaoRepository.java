@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface LigacaoEsgotoSituacaoRepository extends CrudRepository<LigacaoEsgotoSituacaoEntity, Integer> {
+public interface LigacaoEsgotoSituacaoRepository extends CrudRepository<LigacaoEsgotoSituacaoEntity, Long> {
 }

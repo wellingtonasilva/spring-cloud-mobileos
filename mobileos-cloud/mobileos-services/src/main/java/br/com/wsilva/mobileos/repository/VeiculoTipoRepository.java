@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface VeiculoTipoRepository extends CrudRepository<VeiculoTipoEntity, Integer> {
+public interface VeiculoTipoRepository extends CrudRepository<VeiculoTipoEntity, Long> {
 }

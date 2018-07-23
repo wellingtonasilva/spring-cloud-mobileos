@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface InterrupcaoRepository extends CrudRepository<InterrupcaoEntity, Integer> {
+public interface InterrupcaoRepository extends CrudRepository<InterrupcaoEntity, Long> {
 }

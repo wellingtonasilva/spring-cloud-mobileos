@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface OrdemServicoSubstituicaoHidrometroRepository extends CrudRepository<OrdemServicoSubstituicaoHidrometroEntity, Integer> {
+public interface OrdemServicoSubstituicaoHidrometroRepository extends CrudRepository<OrdemServicoSubstituicaoHidrometroEntity, Long> {
 }

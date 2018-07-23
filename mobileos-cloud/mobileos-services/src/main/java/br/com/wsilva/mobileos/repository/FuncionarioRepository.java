@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface FuncionarioRepository extends CrudRepository<FuncionarioEntity, Integer> {
+public interface FuncionarioRepository extends CrudRepository<FuncionarioEntity, Long> {
 }
