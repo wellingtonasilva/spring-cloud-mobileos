@@ -263,4 +263,5 @@
     <string name="lbl_os_corte_titulo">Dados do Corte</string>
     <string name="lbl_os_ligacao_nova_titulo">Ligacao Nova</string>
     <string name="app_processo_realizado_sucesso">Processo realizado com sucesso.</string>
+    <string name="app_sincronizar">Sincronizar</string>
 </resources>
