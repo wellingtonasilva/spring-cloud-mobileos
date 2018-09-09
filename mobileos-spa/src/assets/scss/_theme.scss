@@ -1,0 +1,13 @@
+@import '~@angular/material/theming';
+@import './variables.scss';
+@import './fonts.scss';
+@import './components.scss';
+
+// Configure angular material
+@include mat-core();
+$mobileos-primary: mat-palette($color-primary);
+$mobileos-accent:  mat-palette($color-accent);
+$mobileos-warn:    mat-palette($color-warn);
+
+$mobileos-theme: mat-light-theme($mobileos-primary, $mobileos-accent, $mobileos-warn);
+@include angular-material-theme($mobileos-theme);

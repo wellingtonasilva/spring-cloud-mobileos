@@ -1,0 +1,13 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened="true" class="sidenav" autosize>
+        <app-side-menu></app-side-menu>
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+        <app-nav-bar></app-nav-bar>
+        <div class="page-wrapper">
+            <router-outlet></router-outlet>
+        </div>
+        <app-footer></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>
